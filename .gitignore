@@ -1,0 +1,42 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Build targets
+/deploy
+/target
+/web
+*/target
+/logs
+node_modules
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Mac-specific directory that no other operating system needs.
+.DS_Store
+
+# JVM crash logs
+hs_err_pid*.log
+/log.path_IS_UNDEFINED/
